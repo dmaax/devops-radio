@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>DevOps Radio — capa</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/><stop offset="0.6" stop-color="#121637"/><stop offset="1" stop-color="#2b0b3f"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.15" cy="0.12" r="0.55"><stop offset="0" stop-color="#1ed760" stop-opacity="0.28"/><stop offset="1" stop-color="#1ed760" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="0.95" cy="0.9" r="0.6"><stop offset="0" stop-color="#a855f7" stop-opacity="0.35"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1ed760"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#bg)"/>
+  <rect width="1000" height="1000" fill="url(#g1)"/>
+  <rect width="1000" height="1000" fill="url(#g2)"/>
+  <g stroke="#fff" stroke-opacity="0.04" stroke-width="2"><path d="M0 200H1000M0 400H1000M0 600H1000M0 800H1000M200 0V1000M400 0V1000M600 0V1000M800 0V1000"/></g>
+
+  <g font-family="'Ubuntu Sans Mono','Ubuntu Mono','DejaVu Sans Mono',monospace">
+    <!-- ON AIR -->
+    <g transform="translate(60 70)">
+      <rect width="210" height="58" rx="29" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="3"/>
+      <circle cx="34" cy="29" r="11" fill="#ef4444" filter="url(#glow)"/>
+      <text x="58" y="40" fill="#fca5a5" font-size="30" font-weight="700" letter-spacing="4">ON AIR</text>
+    </g>
+    <text x="940" y="110" text-anchor="end" fill="#8b95c9" font-size="28" letter-spacing="3">TODO DIA · 06:00</text>
+
+    <!-- titulo -->
+    <text x="52" y="345" fill="#f1f5f9" font-size="205" font-weight="800" letter-spacing="-6">DevOps</text>
+    <text x="52" y="520" fill="url(#title)" font-size="205" font-weight="800" letter-spacing="-6" filter="url(#glow)">Radio</text>
+
+    <!-- prompt -->
+    <text x="60" y="585" fill="#22d3ee" font-size="38" letter-spacing="1"><tspan fill="#1ed760">$</tspan> git push --vibes<tspan fill="#1ed760">▍</tspan></text>
+
+    <g><rect x="60.0" y="610" width="112" height="52" rx="26" fill="#f59e0b" fill-opacity="0.14" stroke="#f59e0b" stroke-opacity="0.7" stroke-width="3"/><text x="116.0" y="645" text-anchor="middle" fill="#f59e0b" font-size="26" font-weight="700" letter-spacing="2">SEG</text></g><g><rect x="188.0" y="610" width="112" height="52" rx="26" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.7" stroke-width="3"/><text x="244.0" y="645" text-anchor="middle" fill="#22d3ee" font-size="26" font-weight="700" letter-spacing="2">TER</text></g><g><rect x="316.0" y="610" width="112" height="52" rx="26" fill="#ef4444" fill-opacity="0.14" stroke="#ef4444" stroke-opacity="0.7" stroke-width="3"/><text x="372.0" y="645" text-anchor="middle" fill="#ef4444" font-size="26" font-weight="700" letter-spacing="2">QUA</text></g><g><rect x="444.0" y="610" width="112" height="52" rx="26" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-opacity="0.7" stroke-width="3"/><text x="500.0" y="645" text-anchor="middle" fill="#a855f7" font-size="26" font-weight="700" letter-spacing="2">QUI</text></g><g><rect x="572.0" y="610" width="112" height="52" rx="26" fill="#ec4899" fill-opacity="0.14" stroke="#ec4899" stroke-opacity="0.7" stroke-width="3"/><text x="628.0" y="645" text-anchor="middle" fill="#ec4899" font-size="26" font-weight="700" letter-spacing="2">SEX</text></g><g><rect x="700.0" y="610" width="112" height="52" rx="26" fill="#1ed760" fill-opacity="0.14" stroke="#1ed760" stroke-opacity="0.7" stroke-width="3"/><text x="756.0" y="645" text-anchor="middle" fill="#1ed760" font-size="26" font-weight="700" letter-spacing="2">SÁB</text></g><g><rect x="828.0" y="610" width="112" height="52" rx="26" fill="#1ed760" fill-opacity="0.14" stroke="#1ed760" stroke-opacity="0.7" stroke-width="3"/><text x="884.0" y="645" text-anchor="middle" fill="#1ed760" font-size="26" font-weight="700" letter-spacing="2">DOM</text></g>
+  </g>
+
+  <!-- equalizador -->
+  <g fill="url(#bars)" filter="url(#glow)"><rect x="60.0" y="813.8" width="13" height="101.2" rx="6"/><rect x="80.2" y="803.9" width="13" height="111.1" rx="6"/><rect x="100.3" y="765.5" width="13" height="149.5" rx="6"/><rect x="120.5" y="778.7" width="13" height="136.3" rx="6"/><rect x="140.7" y="749.2" width="13" height="165.8" rx="6"/><rect x="160.8" y="753.3" width="13" height="161.7" rx="6"/><rect x="181.0" y="769.5" width="13" height="145.5" rx="6"/><rect x="201.1" y="757.8" width="13" height="157.2" rx="6"/><rect x="221.3" y="793.5" width="13" height="121.5" rx="6"/><rect x="241.5" y="795.8" width="13" height="119.2" rx="6"/><rect x="261.6" y="837.0" width="13" height="78.0" rx="6"/><rect x="281.8" y="864.3" width="13" height="50.7" rx="6"/><rect x="302.0" y="832.3" width="13" height="82.7" rx="6"/><rect x="322.1" y="783.9" width="13" height="131.1" rx="6"/><rect x="342.3" y="787.0" width="13" height="128.0" rx="6"/><rect x="362.4" y="757.3" width="13" height="157.7" rx="6"/><rect x="382.6" y="719.1" width="13" height="195.9" rx="6"/><rect x="402.8" y="691.0" width="13" height="224.0" rx="6"/><rect x="422.9" y="701.3" width="13" height="213.7" rx="6"/><rect x="443.1" y="711.0" width="13" height="204.0" rx="6"/><rect x="463.3" y="694.3" width="13" height="220.7" rx="6"/><rect x="483.4" y="753.0" width="13" height="162.0" rx="6"/><rect x="503.6" y="739.7" width="13" height="175.3" rx="6"/><rect x="523.7" y="793.7" width="13" height="121.3" rx="6"/><rect x="543.9" y="832.0" width="13" height="83.0" rx="6"/><rect x="564.1" y="866.6" width="13" height="48.4" rx="6"/><rect x="584.2" y="831.3" width="13" height="83.7" rx="6"/><rect x="604.4" y="777.7" width="13" height="137.3" rx="6"/><rect x="624.6" y="779.7" width="13" height="135.3" rx="6"/><rect x="644.7" y="740.4" width="13" height="174.6" rx="6"/><rect x="664.9" y="723.1" width="13" height="191.9" rx="6"/><rect x="685.0" y="727.5" width="13" height="187.5" rx="6"/><rect x="705.2" y="719.3" width="13" height="195.7" rx="6"/><rect x="725.4" y="747.7" width="13" height="167.3" rx="6"/><rect x="745.5" y="760.7" width="13" height="154.3" rx="6"/><rect x="765.7" y="772.1" width="13" height="142.9" rx="6"/><rect x="785.9" y="772.5" width="13" height="142.5" rx="6"/><rect x="806.0" y="807.9" width="13" height="107.1" rx="6"/><rect x="826.2" y="837.8" width="13" height="77.2" rx="6"/><rect x="846.3" y="847.8" width="13" height="67.2" rx="6"/><rect x="866.5" y="832.0" width="13" height="83.0" rx="6"/><rect x="886.7" y="820.4" width="13" height="94.6" rx="6"/><rect x="906.8" y="783.8" width="13" height="131.2" rx="6"/><rect x="927.0" y="778.2" width="13" height="136.8" rx="6"/></g>
+  <rect x="60" y="930" width="880" height="4" rx="2" fill="#22d3ee" fill-opacity="0.35"/>
+</svg>

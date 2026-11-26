@@ -6,3 +6,4 @@ data/
 output/
 devradio/preview.md
 __pycache__/
+.venv/

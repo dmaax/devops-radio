@@ -86,9 +86,25 @@ def publish(date, dry_run):
     print(f"https://open.spotify.com/playlist/{pid}")
 
 
+def upload_cover(path):
+    """Envia a capa (JPEG <= 256 KB) para a playlist. PUT /playlists/{id}/images com corpo base64."""
+    import base64
+    import urllib.request
+    state = json.load(open(STATE))
+    data = base64.b64encode(open(path, "rb").read())
+    if len(data) > 256 * 1024:
+        raise SystemExit("Capa maior que 256 KB em base64")
+    tok = sp.get_token()
+    req = urllib.request.Request(f"{sp.API}/playlists/{state['playlist_id']}/images", data=data, method="PUT",
+                                 headers={"Authorization": "Bearer " + tok["access_token"],
+                                          "Content-Type": "image/jpeg"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        print("Capa enviada:", r.status)
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["login", "whoami", "publish"])
+    ap.add_argument("mode", choices=["login", "whoami", "publish", "cover"])
     ap.add_argument("--date")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -97,6 +113,9 @@ def main():
             os.remove(sp.TOKEN_PATH)
         sp._tok[0] = sp.login()
         whoami()
+    elif args.mode == "cover":
+        whoami()
+        upload_cover(os.path.join(HERE, "assets", "cover.jpg"))
     elif args.mode == "whoami":
         whoami()
     else:

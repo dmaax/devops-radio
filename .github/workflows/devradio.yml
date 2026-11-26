@@ -1,0 +1,40 @@
+name: DevOps Radio
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 06:00 em Brasília (UTC-3)
+  workflow_dispatch:       # botão "Run workflow" para rodar na mão
+
+permissions:
+  contents: write          # para salvar history.json / state.json de volta no repo
+
+concurrency:
+  group: devradio
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: America/Sao_Paulo
+      SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+      SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+      SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar playlist do dia
+        run: python3 devradio/publish.py publish
+
+      - name: Salvar histórico
+        run: |
+          git config user.name "devradio-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add devradio/history.json devradio/state.json
+          git diff --cached --quiet || git commit -m "devradio: playlist de $(date +%F)"
+          git push

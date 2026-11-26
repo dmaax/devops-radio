@@ -1,0 +1,8 @@
+# segredos e tokens
+.env
+data/
+# dados pessoais brutos / saídas locais (o CI usa devradio/library.csv)
+*.zip
+output/
+devradio/preview.md
+__pycache__/

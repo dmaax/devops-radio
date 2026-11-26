@@ -1,0 +1,148 @@
+{
+  "playlist_name": "DevOps Radio",
+  "repo_url": "github.com/dmaax/devops-radio",
+  "size": 40,
+  "max_per_artist": 2,
+  "no_repeat_days": 28,
+  "liked_bonus": 2.0,
+  "days": {
+    "0": {
+      "title": "Segunda · aquecendo a sprint ☕",
+      "description": "Organic house e downtempo pra abrir a semana sem susto.",
+      "genres": [
+        "Organic House",
+        "Downtempo"
+      ],
+      "bpm": [
+        100,
+        120
+      ],
+      "energy": [
+        0.0,
+        0.65
+      ],
+      "min_instrumental": 0.3,
+      "max_speech": 0.1,
+      "order": "bpm_asc"
+    },
+    "1": {
+      "title": "Terça · deep focus 🎧",
+      "description": "Minimal, deep tech e deep house instrumental. Notificações no mudo.",
+      "genres": [
+        "Minimal / Deep Tech",
+        "Deep House",
+        "Techno (Raw / Deep / Hypnotic)"
+      ],
+      "bpm": [
+        118,
+        128
+      ],
+      "energy": [
+        0.0,
+        0.8
+      ],
+      "min_instrumental": 0.6,
+      "max_speech": 0.08,
+      "order": "bpm_asc"
+    },
+    "2": {
+      "title": "Quarta · on-call 🔥",
+      "description": "Techno peak time pra segurar o incidente. Pager ligado.",
+      "genres": [
+        "Techno (Peak Time / Driving)",
+        "Hard Techno"
+      ],
+      "bpm": [
+        125,
+        140
+      ],
+      "energy": [
+        0.7,
+        1.0
+      ],
+      "min_instrumental": 0.3,
+      "max_speech": 0.12,
+      "order": "bpm_asc"
+    },
+    "3": {
+      "title": "Quinta · flow state 🌊",
+      "description": "Melodic house & techno e progressive pra entrar no flow.",
+      "genres": [
+        "Melodic House & Techno",
+        "Progressive House"
+      ],
+      "bpm": [
+        118,
+        126
+      ],
+      "energy": [
+        0.0,
+        1.0
+      ],
+      "min_instrumental": 0.3,
+      "max_speech": 0.1,
+      "order": "bpm_asc"
+    },
+    "4": {
+      "title": "Sexta · sem deploy hoje 🪩",
+      "description": "House, nu disco e indie dance. Ninguém faz deploy na sexta.",
+      "genres": [
+        "House",
+        "Nu Disco / Disco",
+        "Indie Dance",
+        "Jackin House"
+      ],
+      "bpm": [
+        110,
+        128
+      ],
+      "energy": [
+        0.5,
+        1.0
+      ],
+      "min_instrumental": 0.0,
+      "max_speech": 0.2,
+      "order": "bpm_asc"
+    },
+    "5": {
+      "title": "Sábado · side project 🛠️",
+      "description": "Ambient, electronica e downtempo pro projeto pessoal.",
+      "genres": [
+        "Ambient",
+        "Electronica",
+        "Downtempo"
+      ],
+      "bpm": [
+        60,
+        125
+      ],
+      "energy": [
+        0.0,
+        0.7
+      ],
+      "min_instrumental": 0.3,
+      "max_speech": 0.1,
+      "order": "bpm_asc"
+    },
+    "6": {
+      "title": "Domingo · side project 🛠️",
+      "description": "Ambient, electronica e downtempo pro projeto pessoal.",
+      "genres": [
+        "Ambient",
+        "Electronica",
+        "Downtempo"
+      ],
+      "bpm": [
+        60,
+        125
+      ],
+      "energy": [
+        0.0,
+        0.7
+      ],
+      "min_instrumental": 0.3,
+      "max_speech": 0.1,
+      "order": "bpm_asc"
+    }
+  }
+}

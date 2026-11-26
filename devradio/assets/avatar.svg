@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+  <title>DevOps Radio</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#151a3a"/>
+      <stop offset="1" stop-color="#2a0f3d"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1ed760"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- fundo (o Spotify recorta em circulo: conteudo fica dentro de r~400 do centro) -->
+  <rect width="1000" height="1000" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="2">
+    <path d="M0 250H1000M0 500H1000M0 750H1000M250 0V1000M500 0V1000M750 0V1000"/>
+  </g>
+
+  <!-- ondas de radio -->
+  <g fill="none" stroke="url(#neon)" stroke-linecap="round" filter="url(#glow)">
+    <path d="M380 265 A170 170 0 0 1 620 265" stroke-width="22" opacity="0.55"/>
+    <path d="M325 205 A250 250 0 0 1 675 205" stroke-width="22" opacity="0.3"/>
+    <circle cx="500" cy="330" r="20" fill="#1ed760" stroke="none"/>
+  </g>
+
+  <!-- janela de terminal -->
+  <g>
+    <rect x="215" y="370" width="570" height="330" rx="34" fill="#0a0f1e" stroke="#2b3566" stroke-width="6"/>
+    <circle cx="265" cy="410" r="12" fill="#ff5f57"/>
+    <circle cx="303" cy="410" r="12" fill="#febc2e"/>
+    <circle cx="341" cy="410" r="12" fill="#28c840"/>
+
+    <!-- prompt >_ -->
+    <g filter="url(#glow)">
+      <path d="M268 500 L330 545 L268 590" fill="none" stroke="#1ed760" stroke-width="26"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="352" y="582" width="70" height="20" rx="6" fill="#1ed760">
+        <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- equalizador -->
+    <g fill="url(#bars)" filter="url(#glow)">
+      <rect x="470" y="545" width="28" height="60" rx="8"/>
+      <rect x="512" y="495" width="28" height="110" rx="8"/>
+      <rect x="554" y="460" width="28" height="145" rx="8"/>
+      <rect x="596" y="510" width="28" height="95" rx="8"/>
+      <rect x="638" y="475" width="28" height="130" rx="8"/>
+      <rect x="680" y="530" width="28" height="75" rx="8"/>
+    </g>
+  </g>
+
+  <!-- nome -->
+  <text x="500" y="790" text-anchor="middle" fill="#e6edf3"
+        font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,monospace"
+        font-size="74" font-weight="700" letter-spacing="4">DevOps Radio</text>
+  <text x="500" y="842" text-anchor="middle" fill="#22d3ee" fill-opacity="0.8"
+        font-family="'JetBrains Mono','Fira Code',Menlo,Consolas,monospace"
+        font-size="30" letter-spacing="6">$ deploy --vibes</text>
+</svg>

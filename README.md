@@ -25,3 +25,7 @@ Playlist do Spotify para devs/devops que **muda todo dia** conforme o dia da sem
 Prévia local da semana: `python3 devradio/generate.py --week`
 
 A classificação da biblioteca vem de `scripts/` (Exportify → tags de gênero + estilos do Discogs + BPM).
+
+## Quer fazer a sua?
+
+Veja o passo a passo em **[COMO-FAZER.md](COMO-FAZER.md)**: fork, classificação da sua biblioteca, conta dedicada no Spotify, GitHub Actions e site com domínio próprio.

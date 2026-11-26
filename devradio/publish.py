@@ -51,7 +51,7 @@ def write_site(date, cfg, theme, tracks, genres, pid):
     day = {
         "date": date.isoformat(), "weekday": date.weekday(), "weekday_name": WEEK[date.weekday()],
         "title": theme["title"], "description": theme["description"], "genres": genres,
-        "playlist_name": cfg["playlist_name"], "playlist_id": pid,
+        "playlist_name": cfg["playlist_name"], "playlist_id": pid, "repo_url": cfg.get("repo_url", ""),
         "duration_min": round(sum(t["dur"] for t in tracks) / 60),
         "tracks": [{
             "n": i, "id": t["uri"].split(":")[-1], "title": t["title"],

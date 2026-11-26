@@ -39,6 +39,13 @@ function renderHeader(day) {
   document.title = `DevOps Radio · ${day.title}`;
 }
 
+function renderRepo(day) {
+  if (!day.repo_url) return;
+  const a = $("#repo");
+  a.href = day.repo_url.startsWith("http") ? day.repo_url : `https://${day.repo_url}`;
+  a.textContent = day.repo_url.replace(/^https?:\/\//, "");
+}
+
 function renderPlayer(day) {
   if (!day.playlist_id) return;
   $("#player").src = `https://open.spotify.com/embed/playlist/${encodeURIComponent(day.playlist_id)}?utm_source=generator&theme=0`;
@@ -190,6 +197,7 @@ async function load(path) {
   const day = await getJSON(path);
   renderHeader(day);
   renderPlayer(day);
+  renderRepo(day);
   renderTable(day);
   renderChart(day);
   renderWeek(day);

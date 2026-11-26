@@ -1,0 +1,664 @@
+{
+ "date": "2026-11-26",
+ "weekday": 3,
+ "weekday_name": "Quinta",
+ "title": "Quinta · flow state 🌊",
+ "description": "Melodic house & techno e progressive pra entrar no flow.",
+ "genres": [
+  "Melodic House & Techno",
+  "Progressive House"
+ ],
+ "playlist_name": "DevOps Radio",
+ "playlist_id": "7D7kQLmpgm0OjGukyzmdDZ",
+ "duration_min": 253,
+ "tracks": [
+  {
+   "n": 1,
+   "id": "6j0ao2DgHem5dpnGeHwufi",
+   "title": "Walking Away",
+   "artists": [
+    "Mind Against"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 120,
+   "camelot": "3B",
+   "energy": 0.52,
+   "instrumental": 0.85,
+   "duration_s": 426
+  },
+  {
+   "n": 2,
+   "id": "1vL1H3YVbjDDnIMtjGiR9i",
+   "title": "Boy Boy Boy - Joris Voorn Remix (Radio Edit)",
+   "artists": [
+    "andhim",
+    "Joris Voorn"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 120,
+   "camelot": "6A",
+   "energy": 0.64,
+   "instrumental": 0.9,
+   "duration_s": 252
+  },
+  {
+   "n": 3,
+   "id": "6FBSOhENQ8oSm8k56mgXIA",
+   "title": "Whales",
+   "artists": [
+    "Mike Tohr"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 120,
+   "camelot": "10B",
+   "energy": 0.86,
+   "instrumental": 0.83,
+   "duration_s": 229
+  },
+  {
+   "n": 4,
+   "id": "0yuJtvXsapVOQfNDYxQ5mw",
+   "title": "Singularity",
+   "artists": [
+    "Stephan Bodzin"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 121,
+   "camelot": "3A",
+   "energy": 0.49,
+   "instrumental": 0.88,
+   "duration_s": 421
+  },
+  {
+   "n": 5,
+   "id": "6DdGPbxUhVUQLd3iTHbesX",
+   "title": "One More Love",
+   "artists": [
+    "Riigs",
+    "Skenna"
+   ],
+   "genre": "Progressive House",
+   "bpm": 121,
+   "camelot": "9A",
+   "energy": 0.59,
+   "instrumental": 0.84,
+   "duration_s": 418
+  },
+  {
+   "n": 6,
+   "id": "2qNhWwb53JGp4OdNCxUomn",
+   "title": "Intangible",
+   "artists": [
+    "Jonas Saalbach"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 121,
+   "camelot": "9B",
+   "energy": 0.6,
+   "instrumental": 0.91,
+   "duration_s": 358
+  },
+  {
+   "n": 7,
+   "id": "6zOmQKCITH6rUFHmaiGUV1",
+   "title": "Sonder",
+   "artists": [
+    "Anyma"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "6A",
+   "energy": 0.55,
+   "instrumental": 0.91,
+   "duration_s": 332
+  },
+  {
+   "n": 8,
+   "id": "2Of6ELgB41N4REAnQvbpwD",
+   "title": "Free - HOSH Edit",
+   "artists": [
+    "Tone Depth",
+    "Johannes Brecht",
+    "Fetsum",
+    "HOSH"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "8B",
+   "energy": 0.63,
+   "instrumental": 0.58,
+   "duration_s": 419
+  },
+  {
+   "n": 9,
+   "id": "0XJevsXGkIWPy3AOOQH4HM",
+   "title": "The Ground - Joris Voorn Remix",
+   "artists": [
+    "Florian Kruse",
+    "Hendrik Burkhard",
+    "Joris Voorn"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "1B",
+   "energy": 0.72,
+   "instrumental": 0.8,
+   "duration_s": 408
+  },
+  {
+   "n": 10,
+   "id": "6o99HAmYJfBdbC7KV08j51",
+   "title": "Desert Storms - Joris Voorn Radio Mix",
+   "artists": [
+    "WoodS (NL)",
+    "Joris Voorn"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "10B",
+   "energy": 0.76,
+   "instrumental": 0.88,
+   "duration_s": 262
+  },
+  {
+   "n": 11,
+   "id": "6pZAfsbTV6bOYYUzcmCARn",
+   "title": "Spherical Aberration - Jiggler Remix",
+   "artists": [
+    "Benno Blome",
+    "Jiggler"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "3B",
+   "energy": 0.86,
+   "instrumental": 0.7,
+   "duration_s": 386
+  },
+  {
+   "n": 12,
+   "id": "32uzMvtg0JKDKZzg6KhHoZ",
+   "title": "Angel 1",
+   "artists": [
+    "Innellea",
+    "Anyma"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "3A",
+   "energy": 0.89,
+   "instrumental": 0.88,
+   "duration_s": 347
+  },
+  {
+   "n": 13,
+   "id": "6PzfuuQ95fRU9JRFSFFq77",
+   "title": "Point Of No Return",
+   "artists": [
+    "Adam Port",
+    "Monolink"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 122,
+   "camelot": "12B",
+   "energy": 0.92,
+   "instrumental": 0.86,
+   "duration_s": 284
+  },
+  {
+   "n": 14,
+   "id": "3ytB36asCsmd9gKd30Negg",
+   "title": "Painfully - Dub Mix",
+   "artists": [
+    "Julian Wassermann"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "11B",
+   "energy": 0.37,
+   "instrumental": 0.93,
+   "duration_s": 446
+  },
+  {
+   "n": 15,
+   "id": "0uKKDJ3L2ayyhrrhT4iI9v",
+   "title": "Nova",
+   "artists": [
+    "Tale Of Us"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "4B",
+   "energy": 0.39,
+   "instrumental": 0.91,
+   "duration_s": 443
+  },
+  {
+   "n": 16,
+   "id": "5G45wCSoiEpoDEWdVRrplj",
+   "title": "Ignorance Is Bliss",
+   "artists": [
+    "Mees Salomé"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "3B",
+   "energy": 0.47,
+   "instrumental": 0.92,
+   "duration_s": 414
+  },
+  {
+   "n": 17,
+   "id": "2pKWgTMo1pz1GhTxuMXTLi",
+   "title": "Express",
+   "artists": [
+    "HOSH",
+    "Tone Depth"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "9B",
+   "energy": 0.58,
+   "instrumental": 0.89,
+   "duration_s": 450
+  },
+  {
+   "n": 18,
+   "id": "3KGh0aBKXeOM3QBnPmRXcF",
+   "title": "Veil - Edit",
+   "artists": [
+    "biskuwi"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "3B",
+   "energy": 0.59,
+   "instrumental": 0.84,
+   "duration_s": 199
+  },
+  {
+   "n": 19,
+   "id": "3ogsr4Zu8O4IyydQy4F2mk",
+   "title": "Not A Coincidence",
+   "artists": [
+    "Dosem"
+   ],
+   "genre": "Progressive House",
+   "bpm": 123,
+   "camelot": "8A",
+   "energy": 0.76,
+   "instrumental": 0.89,
+   "duration_s": 285
+  },
+  {
+   "n": 20,
+   "id": "3tQnp8Um9RRSGuk7ylhZKU",
+   "title": "Deep in the Dark (feat. LENN V) [Fur Coat Remix]",
+   "artists": [
+    "D-Nox",
+    "Beckers",
+    "LENN V",
+    "Fur Coat"
+   ],
+   "genre": "Progressive House",
+   "bpm": 123,
+   "camelot": "1A",
+   "energy": 0.76,
+   "instrumental": 0.87,
+   "duration_s": 439
+  },
+  {
+   "n": 21,
+   "id": "4zpaEHlbSB981cnB6LVqeV",
+   "title": "Mental Scanning - Rework 2019",
+   "artists": [
+    "Paulo Foltz"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "10A",
+   "energy": 0.84,
+   "instrumental": 0.89,
+   "duration_s": 485
+  },
+  {
+   "n": 22,
+   "id": "4hHp8zcyoyIROeUZrkAvvK",
+   "title": "Liberty",
+   "artists": [
+    "Stereo Express"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 123,
+   "camelot": "10B",
+   "energy": 0.9,
+   "instrumental": 0.92,
+   "duration_s": 398
+  },
+  {
+   "n": 23,
+   "id": "5ehRGTe0TWpurd9V9r9Uzf",
+   "title": "Inhibition",
+   "artists": [
+    "Stephan Jolk"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 124,
+   "camelot": "3A",
+   "energy": 0.53,
+   "instrumental": 0.89,
+   "duration_s": 423
+  },
+  {
+   "n": 24,
+   "id": "1Iwe9eOJriUrsUshdFzfPq",
+   "title": "Alderan",
+   "artists": [
+    "Fat Cosmoe"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 124,
+   "camelot": "4A",
+   "energy": 0.55,
+   "instrumental": 0.92,
+   "duration_s": 329
+  },
+  {
+   "n": 25,
+   "id": "0cwSYTBioiRS2eismqNgEI",
+   "title": "Pandora's Dream",
+   "artists": [
+    "Fur Coat"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 124,
+   "camelot": "9B",
+   "energy": 0.72,
+   "instrumental": 0.92,
+   "duration_s": 443
+  },
+  {
+   "n": 26,
+   "id": "3nnMrqKqb7iA56XVrgvep3",
+   "title": "Planet Earth",
+   "artists": [
+    "Solee"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 124,
+   "camelot": "12A",
+   "energy": 0.73,
+   "instrumental": 0.9,
+   "duration_s": 402
+  },
+  {
+   "n": 27,
+   "id": "5WxoSuo4IWei3V5d42JOIv",
+   "title": "Gamala",
+   "artists": [
+    "Wurtz",
+    "Iberian Muse"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 124,
+   "camelot": "10B",
+   "energy": 0.92,
+   "instrumental": 0.9,
+   "duration_s": 435
+  },
+  {
+   "n": 28,
+   "id": "5YU5mN6I5C47NE8IFa6lUq",
+   "title": "Polina",
+   "artists": [
+    "Agents Of Time"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 125,
+   "camelot": "12A",
+   "energy": 0.56,
+   "instrumental": 0.9,
+   "duration_s": 472
+  },
+  {
+   "n": 29,
+   "id": "7lGiY5GZbObk9pdSjWFZs0",
+   "title": "The Age Of Innocence",
+   "artists": [
+    "Rob Hes"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 125,
+   "camelot": "9B",
+   "energy": 0.63,
+   "instrumental": 0.87,
+   "duration_s": 403
+  },
+  {
+   "n": 30,
+   "id": "16nQcMPdWQ3XllnnvoPRtr",
+   "title": "Extase",
+   "artists": [
+    "Julian Wassermann"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 125,
+   "camelot": "10B",
+   "energy": 0.67,
+   "instrumental": 0.94,
+   "duration_s": 372
+  },
+  {
+   "n": 31,
+   "id": "6JcHGCnx7iWrtZS26TJGK3",
+   "title": "Gimme Something",
+   "artists": [
+    "Drauf & Dran",
+    "Rich Vom Dorf"
+   ],
+   "genre": "Progressive House",
+   "bpm": 125,
+   "camelot": "9B",
+   "energy": 0.73,
+   "instrumental": 0.76,
+   "duration_s": 353
+  },
+  {
+   "n": 32,
+   "id": "0xjrAGEwftT21zpLLgVUak",
+   "title": "Cylon",
+   "artists": [
+    "Stephan Jolk"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 125,
+   "camelot": "10B",
+   "energy": 0.75,
+   "instrumental": 0.9,
+   "duration_s": 330
+  },
+  {
+   "n": 33,
+   "id": "4umLzOBGXqKqNVAuYJqAGi",
+   "title": "Diamant",
+   "artists": [
+    "Stephan Bodzin"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 125,
+   "camelot": "8B",
+   "energy": 0.83,
+   "instrumental": 0.88,
+   "duration_s": 548
+  },
+  {
+   "n": 34,
+   "id": "5W6akAiSaIrAQshZS20G1g",
+   "title": "Ultravox",
+   "artists": [
+    "Ae:ther"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "9B",
+   "energy": 0.68,
+   "instrumental": 0.86,
+   "duration_s": 413
+  },
+  {
+   "n": 35,
+   "id": "66RlWkGoiQzKKedZR25kPm",
+   "title": "Lose Control (Mixed)",
+   "artists": [
+    "Hannes Bieger",
+    "Luna Semara"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "9B",
+   "energy": 0.78,
+   "instrumental": 0.8,
+   "duration_s": 404
+  },
+  {
+   "n": 36,
+   "id": "5kZhztaFTKwxnTYtHT7HPe",
+   "title": "Hold me to the light",
+   "artists": [
+    "Martynas Avulis"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "9B",
+   "energy": 0.8,
+   "instrumental": 0.73,
+   "duration_s": 398
+  },
+  {
+   "n": 37,
+   "id": "6GB6BcLV5caMGVP1JABXhb",
+   "title": "Indica",
+   "artists": [
+    "OC & Verde"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "9A",
+   "energy": 0.86,
+   "instrumental": 0.89,
+   "duration_s": 508
+  },
+  {
+   "n": 38,
+   "id": "2oRrosZu67qZ1g0FvxFVBS",
+   "title": "Shake This World",
+   "artists": [
+    "Konstantin Sibold"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "3A",
+   "energy": 0.88,
+   "instrumental": 0.85,
+   "duration_s": 345
+  },
+  {
+   "n": 39,
+   "id": "2Jzo3rKFqgAAWSJ4aLE1kX",
+   "title": "One Mind - Jerome Isma-Ae Remix",
+   "artists": [
+    "Robert Babicz"
+   ],
+   "genre": "Progressive House",
+   "bpm": 126,
+   "camelot": "3B",
+   "energy": 0.94,
+   "instrumental": 0.9,
+   "duration_s": 227
+  },
+  {
+   "n": 40,
+   "id": "6psagJHn3ApMiiMCWR0CAV",
+   "title": "Dreamstates",
+   "artists": [
+    "Argy"
+   ],
+   "genre": "Melodic House & Techno",
+   "bpm": 126,
+   "camelot": "3B",
+   "energy": 0.96,
+   "instrumental": 0.76,
+   "duration_s": 262
+  }
+ ],
+ "week": [
+  {
+   "weekday": 0,
+   "name": "Segunda",
+   "title": "Segunda · aquecendo a sprint ☕",
+   "genres": [
+    "Organic House",
+    "Downtempo"
+   ]
+  },
+  {
+   "weekday": 1,
+   "name": "Terça",
+   "title": "Terça · deep focus 🎧",
+   "genres": [
+    "Minimal / Deep Tech",
+    "Deep House",
+    "Techno (Raw / Deep / Hypnotic)"
+   ]
+  },
+  {
+   "weekday": 2,
+   "name": "Quarta",
+   "title": "Quarta · on-call 🔥",
+   "genres": [
+    "Techno (Peak Time / Driving)",
+    "Hard Techno"
+   ]
+  },
+  {
+   "weekday": 3,
+   "name": "Quinta",
+   "title": "Quinta · flow state 🌊",
+   "genres": [
+    "Melodic House & Techno",
+    "Progressive House"
+   ]
+  },
+  {
+   "weekday": 4,
+   "name": "Sexta",
+   "title": "Sexta · sem deploy hoje 🪩",
+   "genres": [
+    "House",
+    "Nu Disco / Disco",
+    "Indie Dance",
+    "Jackin House"
+   ]
+  },
+  {
+   "weekday": 5,
+   "name": "Sábado",
+   "title": "Sábado · side project 🛠️",
+   "genres": [
+    "Ambient",
+    "Electronica",
+    "Downtempo"
+   ]
+  },
+  {
+   "weekday": 6,
+   "name": "Domingo",
+   "title": "Domingo · side project 🛠️",
+   "genres": [
+    "Ambient",
+    "Electronica",
+    "Downtempo"
+   ]
+  }
+ ]
+}

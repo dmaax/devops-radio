@@ -6,6 +6,7 @@ Uso:
   python3 devradio/publish.py whoami           # confere qual conta esta logada
   python3 devradio/publish.py publish          # monta a playlist de hoje e atualiza no Spotify
   python3 devradio/publish.py publish --date 2026-12-02 --dry-run
+  python3 devradio/publish.py site             # so regenera os dados do site (docs/data), sem Spotify
 
 Token: data/cache/spotify_token_devradio.json (ou env SPOTIFY_REFRESH_TOKEN, para GitHub Actions).
 Estado (id da playlist): devradio/state.json · historico: devradio/history.json
@@ -41,7 +42,37 @@ def whoami():
     return me
 
 
-def publish(date, dry_run):
+SITE_DATA = os.path.join(ROOT, "docs", "data")
+
+
+def write_site(date, cfg, theme, tracks, genres, pid):
+    """Gera os JSON do site (docs/data): today.json, days/<data>.json, index.json."""
+    WEEK = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
+    day = {
+        "date": date.isoformat(), "weekday": date.weekday(), "weekday_name": WEEK[date.weekday()],
+        "title": theme["title"], "description": theme["description"], "genres": genres,
+        "playlist_name": cfg["playlist_name"], "playlist_id": pid,
+        "duration_min": round(sum(t["dur"] for t in tracks) / 60),
+        "tracks": [{
+            "n": i, "id": t["uri"].split(":")[-1], "title": t["title"],
+            "artists": [a.strip() for a in t["artists"].split(";")], "genre": t["genre"],
+            "bpm": round(t["bpm"]), "camelot": t["camelot"], "energy": round(t["energy"], 2),
+            "instrumental": round(t["instr"], 2), "duration_s": round(t["dur"]),
+        } for i, t in enumerate(tracks, 1)],
+        "week": [{"weekday": int(k), "name": WEEK[int(k)], "title": v["title"], "genres": v["genres"]}
+                 for k, v in sorted(cfg["days"].items(), key=lambda kv: int(kv[0]))],
+    }
+    os.makedirs(os.path.join(SITE_DATA, "days"), exist_ok=True)
+    for path in (os.path.join(SITE_DATA, "today.json"), os.path.join(SITE_DATA, "days", f"{date.isoformat()}.json")):
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(day, fh, ensure_ascii=False, indent=1)
+    days = sorted((f[:-5] for f in os.listdir(os.path.join(SITE_DATA, "days")) if f.endswith(".json")), reverse=True)
+    with open(os.path.join(SITE_DATA, "index.json"), "w", encoding="utf-8") as fh:
+        json.dump({"days": days}, fh, indent=1)
+    print(f"Site: docs/data/today.json ({len(tracks)} faixas)")
+
+
+def publish(date, dry_run, site_only=False):
     cfg = json.load(open(generate.CONFIG, encoding="utf-8"))
     theme = cfg["days"][str(date.weekday())]
     lib = generate.load_library()
@@ -54,6 +85,10 @@ def publish(date, dry_run):
     if cfg.get("repo_url"):
         desc += f" {cfg['repo_url']}"
     print(f"{name}\n{desc}")
+    if site_only:
+        state = json.load(open(STATE)) if os.path.exists(STATE) else {}
+        write_site(date, cfg, theme, tracks, genres, state.get("playlist_id"))
+        return
     if dry_run:
         for t in tracks[:10]:
             print(f"  {t['bpm']:.0f} {t['camelot']:>3}  {t['artists'].replace(';', ', ')} - {t['title']}")
@@ -83,6 +118,7 @@ def publish(date, dry_run):
     cutoff = (date - dt.timedelta(days=90)).isoformat()
     history = {d: u for d, u in history.items() if d >= cutoff}
     json.dump(history, open(generate.HISTORY, "w"), indent=0)
+    write_site(date, cfg, theme, tracks, genres, pid)
     print(f"https://open.spotify.com/playlist/{pid}")
 
 
@@ -104,7 +140,7 @@ def upload_cover(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["login", "whoami", "publish", "cover"])
+    ap.add_argument("mode", choices=["login", "whoami", "publish", "cover", "site"])
     ap.add_argument("--date")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
@@ -119,7 +155,8 @@ def main():
     elif args.mode == "whoami":
         whoami()
     else:
-        publish(dt.date.fromisoformat(args.date) if args.date else dt.date.today(), args.dry_run)
+        publish(dt.date.fromisoformat(args.date) if args.date else dt.date.today(), args.dry_run,
+                site_only=args.mode == "site")
 
 
 if __name__ == "__main__":

@@ -1,9 +1,9 @@
 # segredos e tokens
 .env
-data/
+/data/
 # dados pessoais brutos / saídas locais (o CI usa devradio/library.csv)
 *.zip
-output/
+/output/
 devradio/preview.md
 __pycache__/
 .venv/

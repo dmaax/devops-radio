@@ -1,0 +1,680 @@
+{
+ "date": "2026-11-28",
+ "weekday": 5,
+ "weekday_name": "Sábado",
+ "title": "Sábado · side project 🛠️",
+ "description": "Ambient, electronica e downtempo pro projeto pessoal.",
+ "genres": [
+  "Downtempo",
+  "Ambient",
+  "Electronica"
+ ],
+ "playlist_name": "DevOps Radio",
+ "playlist_id": "7D7kQLmpgm0OjGukyzmdDZ",
+ "repo_url": "github.com/dmaax/devops-radio",
+ "duration_min": 235,
+ "tracks": [
+  {
+   "n": 1,
+   "id": "5psjdB5UIHuDvfZqxjRIGb",
+   "title": "Of the undiscovered country - From The Original Motion Picture \"Hamnet\"",
+   "artists": [
+    "Max Richter"
+   ],
+   "genre": "Ambient",
+   "bpm": 72,
+   "camelot": "6B",
+   "energy": 0.2,
+   "instrumental": 0.95,
+   "duration_s": 322
+  },
+  {
+   "n": 2,
+   "id": "6FLwmdmW77N1Pxb1aWsZmO",
+   "title": "Only Time",
+   "artists": [
+    "Enya"
+   ],
+   "genre": "Ambient",
+   "bpm": 83,
+   "camelot": "5B",
+   "energy": 0.25,
+   "instrumental": 0.66,
+   "duration_s": 219
+  },
+  {
+   "n": 3,
+   "id": "4VxaUj96W2jw9UOtKHu51p",
+   "title": "Goodbye",
+   "artists": [
+    "Apparat",
+    "Soap&Skin"
+   ],
+   "genre": "Electronica",
+   "bpm": 87,
+   "camelot": "12A",
+   "energy": 0.46,
+   "instrumental": 0.59,
+   "duration_s": 257
+  },
+  {
+   "n": 4,
+   "id": "2E5Rl8A8UexeWU7raWR3Sa",
+   "title": "Peace Green",
+   "artists": [
+    "thds"
+   ],
+   "genre": "Downtempo",
+   "bpm": 92,
+   "camelot": "9B",
+   "energy": 0.4,
+   "instrumental": 0.79,
+   "duration_s": 197
+  },
+  {
+   "n": 5,
+   "id": "74ZKBDhm9wJSZLs28hGTYu",
+   "title": "Introspective - Xique Xique Remix",
+   "artists": [
+    "Luca Musto",
+    "Xique-Xique"
+   ],
+   "genre": "Downtempo",
+   "bpm": 93,
+   "camelot": "9B",
+   "energy": 0.44,
+   "instrumental": 0.88,
+   "duration_s": 417
+  },
+  {
+   "n": 6,
+   "id": "6EoUeqkKpALb2HXWyEYIDk",
+   "title": "Nylon Bell Pot",
+   "artists": [
+    "Ben Hackett"
+   ],
+   "genre": "Ambient",
+   "bpm": 94,
+   "camelot": "10B",
+   "energy": 0.29,
+   "instrumental": 0.92,
+   "duration_s": 218
+  },
+  {
+   "n": 7,
+   "id": "0LnYpTkKV2pioQ0aKMbC0f",
+   "title": "Jojo In The Stars - Hraach Slow Version",
+   "artists": [
+    "Armen Miran",
+    "Hraach"
+   ],
+   "genre": "Downtempo",
+   "bpm": 94,
+   "camelot": "7A",
+   "energy": 0.67,
+   "instrumental": 0.92,
+   "duration_s": 416
+  },
+  {
+   "n": 8,
+   "id": "02bRAIc9epcAu5I5LvnApN",
+   "title": "Electric Counterpoint (Rescored and Reimagined by Emanuele Naima): II. Slow",
+   "artists": [
+    "Steve Reich",
+    "EMANUELE NAIMA"
+   ],
+   "genre": "Ambient",
+   "bpm": 96,
+   "camelot": "1B",
+   "energy": 0.62,
+   "instrumental": 0.86,
+   "duration_s": 203
+  },
+  {
+   "n": 9,
+   "id": "0y5qFnl3NrRUrvICJsUW06",
+   "title": "Mu - Iorie Remix",
+   "artists": [
+    "Roderic",
+    "Iorie"
+   ],
+   "genre": "Downtempo",
+   "bpm": 97,
+   "camelot": "12A",
+   "energy": 0.52,
+   "instrumental": 0.88,
+   "duration_s": 441
+  },
+  {
+   "n": 10,
+   "id": "0nchWiXOXJOi6jo8AtNEoL",
+   "title": "Floating Field",
+   "artists": [
+    "Geju"
+   ],
+   "genre": "Downtempo",
+   "bpm": 98,
+   "camelot": "7A",
+   "energy": 0.28,
+   "instrumental": 0.84,
+   "duration_s": 634
+  },
+  {
+   "n": 11,
+   "id": "5jWXMkoKxn1NOvImfLqkP5",
+   "title": "Ritual Spirit",
+   "artists": [
+    "Massive Attack",
+    "Azekel"
+   ],
+   "genre": "Downtempo",
+   "bpm": 98,
+   "camelot": "9B",
+   "energy": 0.67,
+   "instrumental": 0.37,
+   "duration_s": 235
+  },
+  {
+   "n": 12,
+   "id": "4SwvwaBmhyJvLB1ggWG38K",
+   "title": "Inner City Pressure",
+   "artists": [
+    "Bassara"
+   ],
+   "genre": "Downtempo",
+   "bpm": 99,
+   "camelot": "12B",
+   "energy": 0.45,
+   "instrumental": 0.8,
+   "duration_s": 438
+  },
+  {
+   "n": 13,
+   "id": "0UfqtjRY5NA4mxdTrQnTwP",
+   "title": "Parabel",
+   "artists": [
+    "Luca Musto"
+   ],
+   "genre": "Downtempo",
+   "bpm": 99,
+   "camelot": "11B",
+   "energy": 0.49,
+   "instrumental": 0.89,
+   "duration_s": 479
+  },
+  {
+   "n": 14,
+   "id": "3zgvEWXtMktNhkVXyNCz1H",
+   "title": "Laïka (Hannes Fischer Remix)",
+   "artists": [
+    "Camel Power Club",
+    "Hannes Fischer"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "1A",
+   "energy": 0.26,
+   "instrumental": 0.86,
+   "duration_s": 292
+  },
+  {
+   "n": 15,
+   "id": "0vDZs4ewalpe9LCKs8VeXR",
+   "title": "Four",
+   "artists": [
+    "NINZE & OKAXY"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "11B",
+   "energy": 0.34,
+   "instrumental": 0.83,
+   "duration_s": 424
+  },
+  {
+   "n": 16,
+   "id": "1bWrkRbue30defU1lvNQ5O",
+   "title": "Burn",
+   "artists": [
+    "Daniel Hokum"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "1B",
+   "energy": 0.35,
+   "instrumental": 0.86,
+   "duration_s": 470
+  },
+  {
+   "n": 17,
+   "id": "6CLa45W7UeKOm6lkrL5Uqg",
+   "title": "Prelúdio",
+   "artists": [
+    "Xique-Xique"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "9A",
+   "energy": 0.41,
+   "instrumental": 0.9,
+   "duration_s": 219
+  },
+  {
+   "n": 18,
+   "id": "4ulS6SOHABpA5F8EEUDiwv",
+   "title": "Moda'da Gece",
+   "artists": [
+    "Xique-Xique",
+    "VRuno"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "5A",
+   "energy": 0.43,
+   "instrumental": 0.88,
+   "duration_s": 271
+  },
+  {
+   "n": 19,
+   "id": "2T22nWREUBFOq3qcO2ZWUE",
+   "title": "Mycenae - Carlita Remix",
+   "artists": [
+    "Muno",
+    "Carlita"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "7A",
+   "energy": 0.56,
+   "instrumental": 0.84,
+   "duration_s": 352
+  },
+  {
+   "n": 20,
+   "id": "7mdHMD6pqnsw9Nzlk9O7WK",
+   "title": "Erste Sahne",
+   "artists": [
+    "thea & schtu",
+    "AKASHA MX"
+   ],
+   "genre": "Downtempo",
+   "bpm": 100,
+   "camelot": "6A",
+   "energy": 0.68,
+   "instrumental": 0.88,
+   "duration_s": 427
+  },
+  {
+   "n": 21,
+   "id": "4rJDJnOFLms2b4oFquIBFg",
+   "title": "Beholden to the Birds Murmuring Above",
+   "artists": [
+    "Hannah Frances",
+    "Mary Lattimore"
+   ],
+   "genre": "Ambient",
+   "bpm": 102,
+   "camelot": "6B",
+   "energy": 0.23,
+   "instrumental": 0.89,
+   "duration_s": 284
+  },
+  {
+   "n": 22,
+   "id": "4NnGvxM2UEvUkr8aNeCoEu",
+   "title": "Sleep is Holy - Bassara ReVox",
+   "artists": [
+    "Landhouse",
+    "David Rausch",
+    "Bassara"
+   ],
+   "genre": "Downtempo",
+   "bpm": 102,
+   "camelot": "6A",
+   "energy": 0.48,
+   "instrumental": 0.88,
+   "duration_s": 499
+  },
+  {
+   "n": 23,
+   "id": "2TX73di3or9JfYFrC4VxMw",
+   "title": "Gentle Movement (Lost Tapes)",
+   "artists": [
+    "Röyksopp"
+   ],
+   "genre": "Downtempo",
+   "bpm": 102,
+   "camelot": "4B",
+   "energy": 0.64,
+   "instrumental": 0.85,
+   "duration_s": 371
+  },
+  {
+   "n": 24,
+   "id": "2RX78UT0aJTySpKdyRT0IY",
+   "title": "Ghajar",
+   "artists": [
+    "Stavroz"
+   ],
+   "genre": "Downtempo",
+   "bpm": 103,
+   "camelot": "6A",
+   "energy": 0.34,
+   "instrumental": 0.45,
+   "duration_s": 300
+  },
+  {
+   "n": 25,
+   "id": "2HcveAOhYlTjXiBNOv4bTF",
+   "title": "Theme For Namgar - Crussen Edit",
+   "artists": [
+    "Crussen",
+    "Ole Jørn Myklebust"
+   ],
+   "genre": "Downtempo",
+   "bpm": 105,
+   "camelot": "3B",
+   "energy": 0.37,
+   "instrumental": 0.81,
+   "duration_s": 348
+  },
+  {
+   "n": 26,
+   "id": "18A466MlSop487yHiEI25h",
+   "title": "Paradise",
+   "artists": [
+    "DJ Center",
+    "Sly5thAve",
+    "Thalma De Freitas"
+   ],
+   "genre": "Downtempo",
+   "bpm": 105,
+   "camelot": "9B",
+   "energy": 0.55,
+   "instrumental": 0.78,
+   "duration_s": 220
+  },
+  {
+   "n": 27,
+   "id": "5VWVVSABdgccboSdrKGiZH",
+   "title": "Fortune Days",
+   "artists": [
+    "The Glitch Mob"
+   ],
+   "genre": "Electronica",
+   "bpm": 105,
+   "camelot": "12A",
+   "energy": 0.67,
+   "instrumental": 0.81,
+   "duration_s": 383
+  },
+  {
+   "n": 28,
+   "id": "1H2vL8ong4AFZR8W2n4FkO",
+   "title": "Hang in There",
+   "artists": [
+    "Ricoloop"
+   ],
+   "genre": "Downtempo",
+   "bpm": 109,
+   "camelot": "10A",
+   "energy": 0.47,
+   "instrumental": 0.8,
+   "duration_s": 312
+  },
+  {
+   "n": 29,
+   "id": "24mCtp8VWK4E4oGA37bA96",
+   "title": "Becoming One",
+   "artists": [
+    "Endel",
+    "ANNA"
+   ],
+   "genre": "Ambient",
+   "bpm": 110,
+   "camelot": "8B",
+   "energy": 0.09,
+   "instrumental": 0.97,
+   "duration_s": 672
+  },
+  {
+   "n": 30,
+   "id": "1LjJhtaJdQJZ7jPHV94UpH",
+   "title": "Passing By",
+   "artists": [
+    "Jelena Ciric",
+    "Snorri Hallgrímsson",
+    "Cécile Lacharme",
+    "Oliver Patrice Weder"
+   ],
+   "genre": "Ambient",
+   "bpm": 110,
+   "camelot": "8B",
+   "energy": 0.3,
+   "instrumental": 0.9,
+   "duration_s": 333
+  },
+  {
+   "n": 31,
+   "id": "5pZHQdchwwjrYumeRkExr1",
+   "title": "Because It Makes Me",
+   "artists": [
+    "Tsewer Beta"
+   ],
+   "genre": "Electronica",
+   "bpm": 110,
+   "camelot": "2B",
+   "energy": 0.48,
+   "instrumental": 0.93,
+   "duration_s": 316
+  },
+  {
+   "n": 32,
+   "id": "0ZymsnSNfDv9DR3ZsdYELy",
+   "title": "Night Over Eridu - Dandara & Arutani Remix",
+   "artists": [
+    "Trippin Jaguar",
+    "Dandara",
+    "Arutani"
+   ],
+   "genre": "Downtempo",
+   "bpm": 110,
+   "camelot": "10A",
+   "energy": 0.51,
+   "instrumental": 0.79,
+   "duration_s": 404
+  },
+  {
+   "n": 33,
+   "id": "0DYCw5AZIX3S11QQUiPiqN",
+   "title": "Love On A Real Train - From 'Risky Business' Original Motion Picture Soundtrack",
+   "artists": [
+    "Tangerine Dream"
+   ],
+   "genre": "Ambient",
+   "bpm": 111,
+   "camelot": "4A",
+   "energy": 0.34,
+   "instrumental": 0.95,
+   "duration_s": 239
+  },
+  {
+   "n": 34,
+   "id": "0IqJyZCHwfjHNYmxn6mQKl",
+   "title": "Ishmael",
+   "artists": [
+    "Nicolas Jaar",
+    "Will Epstein",
+    "Dave Harrington",
+    "Ian Sims"
+   ],
+   "genre": "Downtempo",
+   "bpm": 117,
+   "camelot": "4A",
+   "energy": 0.32,
+   "instrumental": 0.87,
+   "duration_s": 350
+  },
+  {
+   "n": 35,
+   "id": "6730LysZdBvgjo5MgWo4Tm",
+   "title": "Howler - ANNA Remix",
+   "artists": [
+    "Martin Gore",
+    "ANNA"
+   ],
+   "genre": "Electronica",
+   "bpm": 120,
+   "camelot": "10B",
+   "energy": 0.52,
+   "instrumental": 0.9,
+   "duration_s": 379
+  },
+  {
+   "n": 36,
+   "id": "23nz1t7HznkDRBX2evaoNy",
+   "title": "It Hurts - Tone Depth Radio Edit",
+   "artists": [
+    "Télépopmusik",
+    "Jo Wedin",
+    "Tone Depth"
+   ],
+   "genre": "Downtempo",
+   "bpm": 124,
+   "camelot": "11B",
+   "energy": 0.66,
+   "instrumental": 0.79,
+   "duration_s": 236
+  },
+  {
+   "n": 37,
+   "id": "6VBPFeSXcTBa8iMBU5a2ah",
+   "title": "Bloom",
+   "artists": [
+    "Teset"
+   ],
+   "genre": "Downtempo",
+   "bpm": 125,
+   "camelot": "4B",
+   "energy": 0.43,
+   "instrumental": 0.9,
+   "duration_s": 278
+  },
+  {
+   "n": 38,
+   "id": "4g37eTOZlZfCOcimV6fWdW",
+   "title": "My Only Love - Tale of Us & Anyma Remix",
+   "artists": [
+    "Moby",
+    "Tale Of Us",
+    "Anyma"
+   ],
+   "genre": "Downtempo",
+   "bpm": 125,
+   "camelot": "10B",
+   "energy": 0.55,
+   "instrumental": 0.8,
+   "duration_s": 349
+  },
+  {
+   "n": 39,
+   "id": "3lL2t62m8sd8yr8l9F5L4E",
+   "title": "By Night",
+   "artists": [
+    "Louie Austen"
+   ],
+   "genre": "Downtempo",
+   "bpm": 125,
+   "camelot": "5A",
+   "energy": 0.63,
+   "instrumental": 0.68,
+   "duration_s": 292
+  },
+  {
+   "n": 40,
+   "id": "1Bl44VDv5LvJUOwyFFyMT3",
+   "title": "Tides - C's Movement #1 - Carl Craig Remix",
+   "artists": [
+    "Beanfield",
+    "Bajka",
+    "Carl Craig"
+   ],
+   "genre": "Downtempo",
+   "bpm": 125,
+   "camelot": "11B",
+   "energy": 0.63,
+   "instrumental": 0.62,
+   "duration_s": 596
+  }
+ ],
+ "week": [
+  {
+   "weekday": 0,
+   "name": "Segunda",
+   "title": "Segunda · aquecendo a sprint ☕",
+   "genres": [
+    "Organic House",
+    "Downtempo"
+   ]
+  },
+  {
+   "weekday": 1,
+   "name": "Terça",
+   "title": "Terça · deep focus 🎧",
+   "genres": [
+    "Minimal / Deep Tech",
+    "Deep House",
+    "Techno (Raw / Deep / Hypnotic)"
+   ]
+  },
+  {
+   "weekday": 2,
+   "name": "Quarta",
+   "title": "Quarta · on-call 🔥",
+   "genres": [
+    "Techno (Peak Time / Driving)",
+    "Hard Techno"
+   ]
+  },
+  {
+   "weekday": 3,
+   "name": "Quinta",
+   "title": "Quinta · flow state 🌊",
+   "genres": [
+    "Melodic House & Techno",
+    "Progressive House"
+   ]
+  },
+  {
+   "weekday": 4,
+   "name": "Sexta",
+   "title": "Sexta · sem deploy hoje 🪩",
+   "genres": [
+    "House",
+    "Nu Disco / Disco",
+    "Indie Dance",
+    "Jackin House"
+   ]
+  },
+  {
+   "weekday": 5,
+   "name": "Sábado",
+   "title": "Sábado · side project 🛠️",
+   "genres": [
+    "Ambient",
+    "Electronica",
+    "Downtempo"
+   ]
+  },
+  {
+   "weekday": 6,
+   "name": "Domingo",
+   "title": "Domingo · side project 🛠️",
+   "genres": [
+    "Ambient",
+    "Electronica",
+    "Downtempo"
+   ]
+  }
+ ]
+}
